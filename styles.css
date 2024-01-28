@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.login {
+  background-color: rgba(220, 220, 220, 0.3);
+  text-align: end;
+  padding: 5px;
+}
+.login a {
+  text-decoration: none;
+  color: #656565;
+  font-size: 13px;
+  margin-right: 60px;
+}
+.login a:hover {
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+.navbar {
+  background-color: #ffffff !important;
+}
+.navbar-brand {
+  font-size: 35px;
+  color: #014ba0 !important;
+}
+.navbar-nav a {
+  color: #000000 !important;
+  margin-left: 15px;
+}
+.navbar-nav a:hover {
+  color: #014ba0 !important;
+}
+.dropdown-menu:hover .dropdown-item {
+  background-color: transparent !important;
+}
+.card-title {
+  font-size: 50px;
+  margin: 50px 0 50px 50px;
+}
+.card-text {
+  margin: 0 0 8px 50px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.card-img-overlay .btn {
+  margin: 40px 0 0 50px;
+  padding: 8px;
+  background-color: #014ba0;
+  border: 2px solid #014ba0;
+  border-radius: 50px;
+}
+
+@media (max-width: 998px) {
+  .login a {
+    margin-right: 20px;
+  }
+}
